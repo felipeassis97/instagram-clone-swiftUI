@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "messenger-svgrepo-com-2.svg",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "messenger-svgrepo-com.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

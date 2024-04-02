@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "add-plus-square-svgrepo-com.svg",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "add-plus-square-svgrepo-com-2.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
