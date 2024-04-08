@@ -7,18 +7,25 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
+    @EnvironmentObject private var coordinator: Coordinator
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            
+            Button("Navigate to profile") {
+                let  profile = ProfileData(name: "Mufasinha")
+                coordinator.push(route: .profile)
+            }
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    HomeView()
 }
